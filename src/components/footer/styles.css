@@ -1,0 +1,110 @@
+.page-footer{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+.page-footer .social-media{
+    padding: 0 64px;
+    background: #7DB61C;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-footer .social-media h6{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.page-footer .social-media .links-grid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.page-footer .social-media .links-grid a{
+    color: #FFFFFF;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.page-footer .social-media .links-grid a:hover{
+    opacity: 0.8;
+    background-color: #aDed12;
+}
+
+.page-footer .social-media .links-grid a svg{
+    height: 24px;
+    width: 24px;
+}
+
+.page-footer .pa-grid{
+    padding: 0 64px;
+    background: var(--text-color);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-footer .pa-grid .details-footer{
+    margin: 24px;
+}
+
+.page-footer .pa-grid .details-footer h2{
+    font-size: 22px;
+}
+
+.page-footer .pa-grid .details-footer h2 hr{
+    margin-top: 4px;
+    width: 7.5%;
+}
+
+.page-footer .pa-grid .details-footer .details-pa{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    list-style: none;
+}
+
+@media (max-width: 600px) {
+    .details-pa {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+.page-footer .pa-grid .details-footer .details-pa li h5{
+    color: #003641;
+}
+
+.page-footer .pa-grid .details-footer .details-pa li h6{
+    font-weight: normal;
+    margin: 8px 0;
+}
+
+.footer-copyright{
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #003641;
+}
+
+.footer-copyright p{
+    color: #fff;
+}
+
+.footer-copyright a#copyright-link{
+    padding: 0 8px;
+}

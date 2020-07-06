@@ -1,0 +1,95 @@
+.logo-button {
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.menu-btn {
+    height: 80%;
+    cursor: pointer;
+    padding: 8px;
+    margin: 0 16px 0 0;
+    width: 40px;
+    height: 40px;
+}
+
+.menu-btn:active, .menu-btn:hover{
+    border-radius: 20px;
+}
+
+.menu-btn:active, .menu-btn:hover, .logo-button:active {
+    background-color: #F0F0F5;
+}
+
+.tool-bar {
+    width: 100%;
+    height: 56px;
+    padding: 0 16px;
+    background-color: white;
+}
+
+.tool-bar, .logo-button {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#title:active{
+    font-weight: bold;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #ffffff; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 56px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav a {
+    padding: 8px 8px 12px 24px;
+    text-decoration: none;
+    color: var(--text-color);
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a hr{
+    margin-top: 4px;
+    width: 20%;
+}
+
+.sidenav .close-btn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 24px;
+    margin-left: 50px;
+}
+
+.sidenav a:hover {
+    color: white;
+    background: #003641;
+}
+
+.sidenav .close-btn:hover{
+    background: white;
+    color: var(--text-color);
+    border-radius: 50%;
+}
+
+.icon-link{
+    position: absolute;
+    right: 20px;
+    font-size: 28px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

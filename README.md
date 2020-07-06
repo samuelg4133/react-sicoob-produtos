@@ -1,44 +1,46 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse projeto foi desenvolvido com o [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Descrição do Projeto
 
-In the project directory, you can run:
+A proposta desse projeto é desenvolver uma ferramenta com front-end escrito em ReactJs e Back-End em Spring Boot 
+para obtenção de conhecimento sobre as ferramentas e ajudar o Sicoob Sertão Minas a criar uma ferramenta que auxilie 
+na gestão de venda e suporte relacionado aos seus produtos como Consórcio, Sipag, Previdências, Seguros, Consignados...
 
-### `npm start`
+`Atualmente a gestão de vendas da cooperativa é feita em complicadas e desorganizadas planilha Excel.`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h3>Página Inicial</h3><br/>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![alt text](./home.png)<br/>
+**Página Home**<br/>
 
-### `npm test`
+![alt text](./drawer.png)<br/>
+**Menu Lateral (Drawer)**<br/>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![alt text](./footer.png)<br/>
+**Footer**<br/>
 
-### `npm run build`
+##Principais Tecnologias
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<ul>
+<li> React
+<li> Spring Boot
+</ul>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<h4>Components<hr/></h4>
+<ul>
+<li> Header
+<li> Progress Bar - Barra de Progresso Acionada no click da logo Sicoob Produtos para voltar à Home
+<li> Product - Lista de Produtos da Cooperativa
+<li> Footer - Descrição de Contatos e Endereço das Agências do Sicoob Sertão Minas
+</ul>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Entre em contato
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[Facebook](https://www.facebook.com/profile.php?id=100008854217598).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[GitHub](https://github.com/samuelg4133).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[Instagram](https://www.instagram.com/samuel.gomesv/?hl=pt-br).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Linkedln](https://www.linkedin.com/in/samuel-gomes-325175147/).
